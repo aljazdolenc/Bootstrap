@@ -1,0 +1,41 @@
+@media(min-width:768px){
+    .news-input{
+        width:50%;
+    }
+    .fundamentals-img{
+        width:50%;
+    }
+    .card-width{
+        max-width: 300px;
+    }
+}
+@media (max-width: 768px) {
+    .card-container{
+        max-width: 300px;
+    }
+    .button-container{
+        display: flex;
+    }
+    .small-align-btn-center{
+        margin:0 auto;
+      
+    }
+    .gmaps{
+        height:350px;
+    }
+ }
+ #btn-back-to-top {
+    position: absolute;
+    bottom: 50px;
+    right:50px;
+    cursor: pointer;
+  }
+  .wrapper{
+    position:relative
+  }
+
+  body::before {
+    display: block;
+    content: '';
+    height: 60px;
+  }
